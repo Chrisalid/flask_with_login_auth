@@ -1,0 +1,14 @@
+body{
+    background: darkgray;
+    margin: 0;
+    align-items: center;
+}
+
+.menu{
+    margin: 20% auto auto auto;
+    height: 40%;
+    width: 50%;
+    background-color: cadetblue;
+    text-align: center;
+    border: 1px solid #000;
+}
