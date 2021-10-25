@@ -1,14 +1,78 @@
-body{
-    background: darkgray;
+html, body{
+    height: 100%;
     margin: 0;
-    align-items: center;
+}
+
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .menu{
-    margin: 20% auto auto auto;
-    height: 40%;
-    width: 50%;
-    background-color: cadetblue;
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+}
+
+.menu-div{
+    position: absolute;
+    width: 100%;
+    height: 96px;
+
+    background: #9ABA3F;
+}
+
+.text-center{
+    position: absolute;
+    top: 20px;
+    left: 40%;
+
     text-align: center;
-    border: 1px solid #000;
+}
+
+.text-right{
+    position: absolute;
+    width: 155px;
+    height: 31px;
+    right: 0px;
+    top: 33px;
+}
+
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 95.42px;
+}
+
+.body-site{
+    position: absolute;
+    width: 75%;
+    height: 84.9vh;
+    border: 2px solid #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    left: 13%;
+    top: 119px;
+    background-color: #fff;
+}
+
+.div-text{
+    position: absolute;
+    width: 60%;
+    height: 205px;
+    left: 20%;
+    top: 60px;
+    text-align: left;
+}
+
+#img-01{
+    position: absolute;
+    width: 556px;
+    height: 344px;
+    left: 25%;
+    top: 300px;
 }
