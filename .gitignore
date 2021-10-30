@@ -1,2 +1,4 @@
 *venv*
 .vscode
+*__pycache__*
+auth_login.db
