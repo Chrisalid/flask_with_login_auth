@@ -51,7 +51,7 @@ html, body{
 .body-site{
     position: absolute;
     width: 75%;
-    height: 84.9vh;
+    height: 81vh;
     border: 2px solid #000;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -72,7 +72,7 @@ html, body{
 #img-01{
     position: absolute;
     width: 556px;
-    height: 344px;
+    height: 230px;
     left: 25%;
-    top: 300px;
+    top: 280px;
 }
