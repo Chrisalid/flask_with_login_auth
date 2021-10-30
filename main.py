@@ -16,10 +16,14 @@ def register():
         pwd = request.form.get('password')
 
         if name and email and pwd:
-            user = Users(name, email, pwd)
-            user.save()
+            try:
+                print('Passou')
+                user = Users(name, email, pwd)
+                user.save()
 
-            return redirect(url_for('home'))
+                return redirect(url_for('login'))
+            except Exception:
+                return redirect(url_for('register'))
 
     return render_template('register.html')
 

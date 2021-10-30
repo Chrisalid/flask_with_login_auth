@@ -26,7 +26,7 @@ def delete_user(name):
 
 
 if __name__ == '__main__':
-    name = input('Insert the name of account: ')
+    # name = input('Insert the name of account: ')
     query_users()
-    query_user(name)
+    # query_user(name)
     delete_user(name)
