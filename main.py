@@ -1,4 +1,4 @@
-from flask import render_template, redirect, url_for, request
+from flask import render_template, redirect, url_for, request, flash
 from flask_login import login_user, logout_user
 from app.models import Users
 from app import app
@@ -17,7 +17,6 @@ def register():
 
         if name and email and pwd:
             try:
-                print('Passou')
                 user = Users(name, email, pwd)
                 user.save()
 
